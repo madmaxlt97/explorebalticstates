@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 type Props = {
   city: City;
-  countryId: string;
+  countryId?: string;
 };
 
 export default function CityTopicsCards({ city }: Props) {
