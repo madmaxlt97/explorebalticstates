@@ -18,11 +18,6 @@ export default function ArticleViewer() {
   useEffect(() => {
     async function fetchArticle() {
       const path = `../content/city-topics/${countryName}/${cityId}/${articleId}.md`;
-      console.log("AVAILABLE ARTICLES:", Object.keys(articles));
-      console.log("countryName =", countryName);
-      console.log("cityId =", cityId);
-      console.log("articleId =", articleId);
-      console.log("countryId =", countryId);
 
       try {
         if (articles[path]) {
