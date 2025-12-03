@@ -1,0 +1,53 @@
+.country-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f9f7f1 0%, #e6f3ff 100%);
+  min-height: 80vh;
+  padding: 20px;
+  text-align: center;
+}
+.country-page img {
+  width: 300px;
+  height: auto;
+}
+.capital-city,
+.population {
+  font-size: larger;
+}
+.facts-section {
+  margin-top: 2rem;
+}
+.fact-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+.fact-list li {
+  margin-bottom: 10px;
+}
+button {
+  margin-top: 20px;
+  margin-right: 1rem;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.explore-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.explore-btn:hover {
+  background-color: #45a049;
+}
+
+.back-btn {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.back-btn:hover {
+  background-color: #007bb5;
+}

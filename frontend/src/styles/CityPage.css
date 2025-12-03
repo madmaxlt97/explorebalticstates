@@ -1,0 +1,8 @@
+.city-page-container {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f9f7f1 0%, #e6f3ff 100%);
+  min-height: 80vh;
+  padding: 20px;
+  text-align: center;
+}

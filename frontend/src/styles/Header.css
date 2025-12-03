@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 5px;
+  background-color: rgb(206, 206, 206);
+}
+.header-container button {
+  cursor: pointer;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #f9f7f1 0%, #e6f3ff 100%);
+}
+button:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

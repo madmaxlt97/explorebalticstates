@@ -1,0 +1,54 @@
+.city-topics-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.city-topic-card {
+  border: 1px solid #ccc;
+
+  margin-bottom: 15px;
+  background-color: #ffffffcc;
+  width: 330px;
+  text-decoration: none;
+
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+.city-topic-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  scale: 1.02;
+  background: white;
+}
+.city-topic-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.city-topic-card h2 {
+  color: black;
+}
+@media (max-width: 1024px) {
+  .city-topics-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 768px) {
+  .city-topics-container {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+@media (max-width: 480px) {
+  .city-topic-card {
+    width: 90%;
+    padding: 15px;
+  }
+}
