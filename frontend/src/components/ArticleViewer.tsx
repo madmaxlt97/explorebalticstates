@@ -11,7 +11,7 @@ const articles = import.meta.glob("../content/city-topics/**/**/*.md", {
 });
 
 export default function ArticleViewer() {
-  const { countryName, countryId, cityId, articleId } = useParams();
+  const { countryName, cityId, articleId } = useParams();
   const [articleContent, setArticleContent] = useState("");
   const navigate = useNavigate();
 
