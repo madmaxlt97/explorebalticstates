@@ -9,22 +9,24 @@ import ArticleViewer from "./components/ArticleViewer";
 
 function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<HomePage />} />
-        <Route path="/country/:countryName" element={<CountryPage />} />
-        <Route path="/country/:countryName/cities" element={<CitiesPage />} />
-        <Route
-          path="/country/:countryName/cities/:cityId"
-          element={<CityPage />}
-        />
-        <Route
-          path="/country/:countryName/cities/:cityId/articles/:articleId"
-          element={<ArticleViewer />}
-        />
-      </Routes>
-    </Layout>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<HomePage />} />
+          <Route path="/country/:countryName" element={<CountryPage />} />
+          <Route path="/country/:countryName/cities" element={<CitiesPage />} />
+          <Route
+            path="/country/:countryName/cities/:cityId"
+            element={<CityPage />}
+          />
+          <Route
+            path="/country/:countryName/cities/:cityId/articles/:articleId"
+            element={<ArticleViewer />}
+          />
+        </Routes>
+      </Layout>
+    </Router>
   );
 }
 

@@ -1,13 +1,13 @@
 import "../styles/componentsStyles/CityTopicsCards.css";
 import type { City } from "../types/CityType";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 type Props = {
   city: City;
   countryId: string;
 };
 
-export default function CityTopicsCards({ city, countryId }: Props) {
+export default function CityTopicsCards({ city }: Props) {
   return (
     <div className="city-topics-container">
       <Link

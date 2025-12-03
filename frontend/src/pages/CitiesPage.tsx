@@ -1,4 +1,4 @@
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { lithuaniaCities } from "../data/lithuaniaCities";
 import { latviaCities } from "../data/latviaCities";
 import { estoniaCities } from "../data/estoniaCities";
