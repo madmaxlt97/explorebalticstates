@@ -10,8 +10,12 @@ function HomePage() {
       <div className="home-page">
         <h1>Welcome to the Explore Baltic States (EBS)</h1>
         <p className="intro-text">
-          Our main mission is to help You find useful info, fun facts and travel
-          tips before or during visit of this very interesting region of Europe.
+          Dive into the magic of the Baltic region — a place where medieval
+          streets meet modern culture, where nature feels untouched, and every
+          city has its own story. Whether you're planning your first trip or
+          already wandering through these countries, here you’ll find useful
+          tips, local highlights, and curious facts to make your journey richer
+          and easier.
         </p>
         <p className="path">Choose Your next destination:</p>
 
