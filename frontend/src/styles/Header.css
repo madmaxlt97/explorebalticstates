@@ -21,7 +21,13 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 0;
     max-width: 100vw;
+  }
+  .header-container button {
+    /*size: 20%;*/
+    font-size: 14px;
+    padding: 5px 8px;
+    margin-right: 0.5rem;
   }
 }

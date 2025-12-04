@@ -17,4 +17,7 @@ p {
   .home-page {
     min-height: fit-content;
   }
+  .intro-text {
+    max-width: 90vw;
+  }
 }
