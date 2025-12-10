@@ -24,12 +24,6 @@ export const latviaCities: City[] = [
         title: "Best places to try national cuisine in Riga",
         cardImage: "/assets/images/topics-images/cuisine-topic-img.jpg",
       },
-      /*{
-        id: "riga-new-year-activities",
-        title:
-          "A Winter Fairytale: Your Ultimate New Year's Getaway to Vilnius",
-        cardImage: "/assets/images/topics-images/airport-topic-img.jpg",
-      },*/
     ],
   },
   {
@@ -55,12 +49,6 @@ export const latviaCities: City[] = [
         title: "Best places to try national cuisine in Jūrmala",
         cardImage: "/assets/images/topics-images/cuisine-topic-img.jpg",
       },
-      /*{
-        id: "vilnius-new-year-activities",
-        title:
-          "A Winter Fairytale: Your Ultimate New Year's Getaway to Vilnius",
-        cardImage: "/assets/images/topics-images/airport-topic-img.jpg",
-      },*/
     ],
   },
 ];
