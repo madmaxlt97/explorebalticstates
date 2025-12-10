@@ -26,6 +26,7 @@ export const countries: Country[] = [
         description:
           "Vilnius is the capital and largest city of Lithuania, known for its well-preserved medieval architecture and vibrant cultural scene.",
         countryId: "lithuania",
+        topics: [],
       },
     ],
   },
@@ -54,6 +55,7 @@ export const countries: Country[] = [
         description:
           "Riga is the capital and largest city of Latvia, known for its historic center, vibrant nightlife, and beautiful architecture.",
         countryId: "latvia",
+        topics: [],
       },
     ],
   },
@@ -83,6 +85,7 @@ export const countries: Country[] = [
         description:
           "Tallinn is the capital and largest city of Estonia, known for its medieval old town, vibrant culture, and digital innovation.",
         countryId: "estonia",
+        topics: [],
       },
     ],
   },
