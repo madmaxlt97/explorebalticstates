@@ -28,7 +28,8 @@ export const lithuaniaCities: City[] = [
         id: "vilnius-new-year-activities",
         title:
           "A Winter Fairytale: Your Ultimate New Year's Getaway to Vilnius",
-        cardImage: "/assets/images/topics-images/vilnius/vilnius-new-year.png",
+        cardImage:
+          "/assets/images/topics-images/lithuania/vilnius/vilnius-new-year.png",
       },
     ],
   },
@@ -55,12 +56,12 @@ export const lithuaniaCities: City[] = [
         title: "Best places to try national cuisine in Kaunas",
         cardImage: "/assets/images/topics-images/cuisine-topic-img.jpg",
       },
-      /*{
-        id: "vilnius-new-year-activities",
-        title:
-          "A Winter Fairytale: Your Ultimate New Year's Getaway to Vilnius",
-        cardImage: "/assets/images/topics-images/airport-topic-img.jpg",
-      },*/
+      {
+        id: "kaunas-new-year-activities",
+        title: "Kaunas: The Art Deco Heart of a Winter Getaway",
+        cardImage:
+          "/assets/images/topics-images/lithuania/kaunas/kaunas-new-year.jpg",
+      },
     ],
   },
   {
