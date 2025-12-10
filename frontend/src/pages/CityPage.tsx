@@ -1,7 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { lithuaniaCities } from "../data/lithuaniaCities";
-import { latviaCities } from "../data/latviaCities";
-import { estoniaCities } from "../data/estoniaCities";
+
+import { lithuaniaCities } from "../data/countries/lithuania";
+import { latviaCities } from "../data/countries/latvia";
+import { estoniaCities } from "../data/countries/estonia";
 import type { City } from "../types/CityType";
 import CityTopicsCards from "../components/CityTopicsCards";
 import "../styles/CityPage.css";

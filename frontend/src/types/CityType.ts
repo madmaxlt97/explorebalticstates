@@ -1,8 +1,15 @@
-export type City = {
+export interface Topic {
   id: string;
-  image: string;
+  title: string;
+  cardImage: string;
+}
+
+export interface City {
+  id: string;
+  countryId: string;
   name: string;
+  image: string;
   description: string;
   funFacts: string[];
-  countryId: string; // Added to link city to its country
-};
+  topics: Topic[];
+}
