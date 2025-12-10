@@ -39,6 +39,7 @@ export const latviaCities: City[] = [
       "Daugavpils hosts various cultural events, including the annual Daugavpils Theatre Festival.",
     ],
     countryId: "latvia",
+    topics: [],
   },*/
   /* {
     id: "liepaja",
@@ -52,5 +53,6 @@ export const latviaCities: City[] = [
       "Liepaja hosts the annual Summer Sound Festival, attracting music lovers from all over Latvia.",
     ],
     countryId: "latvia",
+    topics: [],
   },*/
 ];
