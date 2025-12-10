@@ -13,6 +13,7 @@ export const estoniaCities: City[] = [
       "Tallinn hosts the annual Tallinn Music Week, one of the largest music festivals in Northern Europe.",
     ],
     countryId: "estonia",
+    topics: [],
   },
   {
     id: "tartu",
@@ -26,5 +27,6 @@ export const estoniaCities: City[] = [
       "Tartu was designated a European Capital of Culture in 2024.",
     ],
     countryId: "estonia",
+    topics: [],
   },
 ];

@@ -13,6 +13,7 @@ export const latviaCities: City[] = [
       "Riga hosts the annual Riga City Festival, celebrating the city's history and culture.",
     ],
     countryId: "latvia",
+    topics: [],
   },
   {
     id: "jurmala",
@@ -24,6 +25,7 @@ export const latviaCities: City[] = [
       "Jūrmala stretches for about 32 kilometers along the Gulf of Riga, making it one of the longest resort towns in Europe.",
     ],
     countryId: "latvia",
+    topics: [],
   },
   /* {
     id: "daugavpils",

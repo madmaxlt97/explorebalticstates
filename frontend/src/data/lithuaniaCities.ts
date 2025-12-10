@@ -13,6 +13,7 @@ export const lithuaniaCities: City[] = [
       "Vilnius is known for its numerous churches, with over 40 in the old town alone.",
     ],
     countryId: "lithuania",
+    topics: [],
   },
   {
     id: "kaunas",
@@ -26,6 +27,7 @@ export const lithuaniaCities: City[] = [
       "Kaunas hosts the annual Kaunas Jazz Festival, attracting international artists.",
     ],
     countryId: "lithuania",
+    topics: [],
   },
   {
     id: "klaipeda",
@@ -39,5 +41,6 @@ export const lithuaniaCities: City[] = [
       "Klaipeda hosts the annual Sea Festival, celebrating its maritime culture.",
     ],
     countryId: "lithuania",
+    topics: [],
   },
 ];
