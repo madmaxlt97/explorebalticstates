@@ -36,7 +36,9 @@ button {
   background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 5px;
+  font-size: 14px;
+  border-radius: 12px;
+  transition: background 0.2s ease;
 }
 .explore-btn:hover {
   background-color: #45a049;
@@ -46,7 +48,9 @@ button {
   background-color: #008cba;
   color: white;
   border: none;
-  border-radius: 5px;
+  font-size: 14px;
+  border-radius: 12px;
+  transition: background 0.2s ease;
 }
 .back-btn:hover {
   background-color: #007bb5;

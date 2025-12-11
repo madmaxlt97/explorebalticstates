@@ -16,11 +16,13 @@ export default function CountryCard({ country }: Props) {
   return (
     <div className="country-card">
       <img src={country.flag} alt={`${country.name} flag`} />
-      <h2>{country.name}</h2>
-      <p>Capital: {country.capital}</p>
-      <p>Population: {country.population}</p>
-      <p>{country.description}</p>
-      <button onClick={handleClick}>Learn more...</button>
+      <h3>{country.name}</h3>
+      <p className="country-meta">Capital: {country.capital}</p>
+      <p className="country-meta">Population: {country.population}</p>
+      {/* <p>{country.description}</p>*/}
+      <button onClick={handleClick} className="card-btn">
+        Learn more →
+      </button>
     </div>
   );
 }

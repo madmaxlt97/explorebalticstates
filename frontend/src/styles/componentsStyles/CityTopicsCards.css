@@ -21,9 +21,9 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 .city-topic-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  scale: 1.02;
-  background: white;
+  transform: translateY(-6px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .city-topic-card img {
   width: 100%;

@@ -23,7 +23,7 @@ const socials: Social[] = [
 
 const Footer = () => {
   return (
-    <footer>
+    /*<footer>
       <div className="social-link">
         {socials.map((social) => (
           <a
@@ -42,6 +42,30 @@ const Footer = () => {
         ))}
       </div>
       <p>Max Nikolajev. All rights reserved.</p>
+    </footer>*/
+    <footer className="footer">
+      <div className="footer-content">
+        <p className="footer-text">
+          © {new Date().getFullYear()} Explore Baltic States
+        </p>
+
+        <div className="social-links">
+          {socials.map((social) => (
+            <a
+              key={social.name}
+              href={social.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={social.name}
+            >
+              <FontAwesomeIcon className="social-icon" icon={social.icon} />
+            </a>
+          ))}
+        </div>
+        <a href="/cookie-policy.html" rel="noopener noreferrer" target="_blank">
+          Cookie Policy
+        </a>
+      </div>
     </footer>
   );
 };

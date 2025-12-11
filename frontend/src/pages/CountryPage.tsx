@@ -29,7 +29,7 @@ export default function CountryPage() {
         </p>
         <p>{country.description}</p>
         <section className="facts-section">
-          <h3>Interesting Facts</h3>
+          <h3>Do you know that?</h3>
           <ul className="fact-list">
             {country.funFacts.map((fact, index) => (
               <li key={index}>{fact}</li>

@@ -10,12 +10,14 @@
   margin-top: 20px;
   margin-right: 1rem;
   padding: 10px 15px;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   background-color: #dc0000;
   color: white;
   border: none;
-  border-radius: 5px;
+  font-size: 14px;
+  border-radius: 12px;
+  transition: background 0.2s ease;
 }
 .btn-to-main-page:hover {
   background-color: #b30000;
@@ -42,10 +44,11 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 .city-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  scale: 1.02;
-  background: white;
+  transform: translateY(-6px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 .city h2 {
   margin-top: 0;
 }
