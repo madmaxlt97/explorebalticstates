@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import "../styles/cookie-policy.css";
 
 export default function CookiePage() {
   return (
