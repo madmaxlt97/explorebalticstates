@@ -6,6 +6,7 @@ import CountryPage from "./pages/CountryPage";
 import CitiesPage from "./pages/CitiesPage";
 import CityPage from "./pages/CityPage";
 import ArticleViewer from "./components/ArticleViewer";
+import CookiePage from "./pages/cookie-page";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             path="/country/:countryName/cities/:cityId/articles/:articleId"
             element={<ArticleViewer />}
           />
+          <Route path="/cookie-policy" element={<CookiePage />} />
         </Routes>
       </Layout>
     </Router>
