@@ -14,7 +14,7 @@ export default function CookiePage() {
         <h2>1. Introduction</h2>
         <p>
           This Cookie Policy explains how
-          <strong>explorebalticstates.com</strong> (“we”, “our” or “the
+          <strong> explorebalticstates.com</strong> (“we”, “our” or “the
           website”) uses cookies and similar technologies to provide, improve
           and protect our services. By continuing to use our website, you agree
           to the use of cookies in accordance with this policy.
