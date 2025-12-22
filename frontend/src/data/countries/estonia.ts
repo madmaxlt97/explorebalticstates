@@ -24,6 +24,12 @@ export const estoniaCities: City[] = [
         title: "Best places to try national cuisine in Vilnius",
         cardImage: "/assets/images/topics-images/cuisine-topic-img.jpg",
       },
+      {
+        id: "tallinn-new-year-activities",
+        title: "New Year's Eve in Tallinn: Celebration Guide",
+        cardImage:
+          "/assets/images/topics-images/estonia/tallinn/tallinn-new-year.png",
+      },
     ],
   },
   {

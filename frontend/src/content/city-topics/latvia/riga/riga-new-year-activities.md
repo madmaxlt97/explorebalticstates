@@ -6,11 +6,11 @@ The primary celebration takes place along the **_Daugava_ River** (11. _novembra
 
 **What to expect:** Live concerts by famous Latvian musicians, DJ sets, and plenty of stalls selling hot food and drinks.
 
-**The Highlight:** A massive fireworks display at midnight, perfectly timed to music, reflecting off the Daugava River.
+**The Highlight:** A massive fireworks display at midnight, perfectly timed to music, reflecting off the _Daugava_ River.
 
 ## 🎄 Old Town Festivities (Dome Square)
 
-For a more traditional atmosphere, head to _**Doma laukums**_ .
+For a more traditional atmosphere, head to **_Doma laukums_** .
 
 **The Vibe:** The Christmas market usually stays open late on New Year's Eve. It’s the best spot to enjoy the "classic" winter magic with the giant Riga Christmas tree and the scent of gingerbread and mulled wine.
 
