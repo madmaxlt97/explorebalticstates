@@ -24,6 +24,11 @@ export const latviaCities: City[] = [
         title: "Best places to try national cuisine in Riga",
         cardImage: "/assets/images/topics-images/cuisine-topic-img.jpg",
       },
+      {
+        id: "riga-new-year-activities",
+        title: "New Year's Eve in Riga: Celebration Guide",
+        cardImage: "/assets/images/topics-images/latvia/riga/riga-new-year.png",
+      },
     ],
   },
   {
