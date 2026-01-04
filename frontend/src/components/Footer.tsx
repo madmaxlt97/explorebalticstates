@@ -42,9 +42,7 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <a href="/cookie-policy" rel="noopener noreferrer" target="_blank">
-          Cookie Policy
-        </a>
+        <a href="/cookie-policy">Cookie Policy</a>
       </div>
     </footer>
   );
