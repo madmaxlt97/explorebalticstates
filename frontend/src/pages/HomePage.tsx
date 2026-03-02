@@ -1,7 +1,7 @@
-import CountryCard from "../components/CountryCard";
+//import CountryCard from "../components/CountryCard";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
-import { countries } from "../data/countries";
+//import { countries } from "../data/countries";
 import "../styles/HomePage.css";
 
 function HomePage() {
