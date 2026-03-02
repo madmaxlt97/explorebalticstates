@@ -1,0 +1,69 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.hero-slide.active {
+  opacity: 1;
+  transform: scale(1);
+  transition:
+    opacity 2s ease-in-out,
+    transform 8s ease-in-out;
+}
+
+/* тёмный градиент сверху */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 90px;
+  letter-spacing: 8px;
+  font-weight: 600;
+  color: white;
+}
+
+.hero-content p {
+  margin-top: 20px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #ddd;
+}
+
+.carousel-image {
+  transform: scale(1.1);
+  transition:
+    opacity 1.5s ease,
+    transform 8s ease;
+}
+
+.carousel-image.active {
+  opacity: 1;
+  transform: scale(1);
+}
