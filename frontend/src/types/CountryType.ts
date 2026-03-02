@@ -5,7 +5,7 @@ export type Country = {
   name: string;
   flag: string;
   capital: string;
-  population: number;
+  population: string | number;
   description: string;
   funFacts: string[];
   cities: City[];

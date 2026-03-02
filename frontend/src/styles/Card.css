@@ -82,21 +82,14 @@
   text-align: center;
 
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .country-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
-}
-
-.country-flag {
-  width: 110px;
-  height: 110px;
-  margin-bottom: 18px;
-  border-radius: 50%;
-  border: 3px solid rgba(0, 0, 0, 0.15);
-  object-fit: cover;
 }
 
 h3 {

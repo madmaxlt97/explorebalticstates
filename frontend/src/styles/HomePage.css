@@ -25,25 +25,6 @@ h1 {
   line-height: 1.6;
 }
 
-/*.cards-container {
-  display: flex;
-  height: 100vh;
-}
-.cards-container button {
-  background: none; /* убирает фон */
-/* border: none; /* убирает рамку */
-/* padding: 0; /* убирает внутренние отступы */
-/* margin: 0;
-  cursor: pointer; /* чтобы был pointer при наведении */
-/* display: flex;
-  flex: 1; /* чтобы кнопки занимали равное пространство */
-/*}*/
-
-/*.country {
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-}*/
 .cards-container {
   display: flex;
   height: 82vh;
@@ -66,8 +47,8 @@ h1 {
 }
 
 .country {
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 95%;
   background-size: cover;
   background-position: center;
 }
