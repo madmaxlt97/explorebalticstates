@@ -23,7 +23,3 @@ A quaint little house that stays true to Lithuania's culinary roots, offering he
 ## Bernelių Užeiga
 
 Mentioned as a simple, inexpensive, and traditional option for Lithuanian cuisine. **Description:** Simple, inexpensive, traditional food. **Price Range:** **€ - €€** (Inexpensive). **Location:** (Not explicitly available in the snippet, but mentioned as a popular choice). **Google Rating:** (Not explicitly available).
-
-## Alinė Leičiai
-
-A traditional bar-restaurant that offers traditional peasant food in a more upscale and slightly more expensive environment than some other traditional spots. They produce their own house beers in a traditional village style. **Description:** Traditional peasant food, more upscale with table service, and known for house beers. **Price Range:** **€€€** (Slightly more expensive). **Location:** Siklių street (not far from Rotušė square). **Google Rating:** (Not explicitly available).
