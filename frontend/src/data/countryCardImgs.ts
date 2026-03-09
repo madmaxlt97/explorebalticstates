@@ -1,33 +1,3 @@
-/*export const images: CountryCardImgs[] = [
-  {
-    name: "Lithuania",
-    images: [
-      "/assets/images/country-page-imgs/Lithuania/lithuania1.avif",
-      "/assets/images/country-page-imgs/Lithuania/lithuania2.avif",
-      "/assets/images/country-page-imgs/Lithuania/lithuania3.avif",
-    ],
-    tagline: "Where silence feels powerful",
-  },
-  {
-    name: "Latvia",
-    images: [
-      "/assets/images/country-page-imgs/Lithuania/lithuania1.avif",
-      "/assets/images/country-page-imgs/Lithuania/lithuania2.avif",
-      "/assets/images/country-page-imgs/Lithuania/lithuania3.avif",
-    ],
-    tagline: "Where history and nature embrace",
-  },
-  {
-    name: "Estonia",
-    images: [
-      "/assets/images/country-page-imgs/Lithuania/lithuania1.avif",
-      "/assets/images/country-page-imgs/Lithuania/lithuania2.avif",
-      "/assets/images/country-page-imgs/Lithuania/lithuania3.avif",
-    ],
-    tagline: "Where medieval charm meets modern innovation",
-  },
-];*/
-
 export const countryCardImgs: Record<string, string[]> = {
   Lithuania: [
     "/assets/images/country-page-imgs/Lithuania/lithuania1.avif",

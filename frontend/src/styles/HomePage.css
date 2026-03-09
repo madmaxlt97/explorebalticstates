@@ -116,3 +116,31 @@ h1 {
     max-width: 50vw;
   }
 }
+@media screen and (max-width: 768px) {
+  .lt,
+  .lv,
+  .ee {
+    max-width: 30vw;
+    max-height: 50vh;
+  }
+}
+@media screen and (max-width: 628px) {
+  .lt,
+  .lv,
+  .ee {
+    max-width: 30vw;
+    max-height: 30vh;
+  }
+  .cards-container {
+    display: flex;
+    max-height: 35vh;
+    width: 95vw;
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .home-page {
+    max-height: 40vh;
+  }
+}

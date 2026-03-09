@@ -45,15 +45,17 @@ const CityPage = () => {
         <div className="city-topics">
           <CityTopicsCards city={city} />
         </div>
-        <button
-          className="back-btn"
-          onClick={() => navigate(`/country/${countryName}/cities`)}
-        >
-          Go back
-        </button>
-        <button className="btn-to-main-page" onClick={() => navigate(`/`)}>
-          Go to main page
-        </button>
+        <div className="nav-btns">
+          <button
+            className="back-btn"
+            onClick={() => navigate(`/country/${countryName}/cities`)}
+          >
+            Go back
+          </button>
+          <button className="btn-to-main-page" onClick={() => navigate(`/`)}>
+            Go to main page
+          </button>
+        </div>
       </div>
     </>
   );

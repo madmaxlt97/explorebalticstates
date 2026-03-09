@@ -93,6 +93,9 @@ button {
 }
 
 .explore-btn {
+  display: flex;
+  justify-self: center;
+  align-self: center;
   margin-top: 40px;
   padding: 14px 32px;
   font-size: 16px;

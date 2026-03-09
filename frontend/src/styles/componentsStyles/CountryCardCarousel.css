@@ -67,3 +67,8 @@
   opacity: 1;
   transform: scale(1);
 }
+@media screen and (max-width: 628px) {
+  .hero-content h1 {
+    font-size: 45px;
+  }
+}

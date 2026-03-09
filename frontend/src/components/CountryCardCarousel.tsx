@@ -1,36 +1,3 @@
-/*import { useEffect, useState } from "react";
-import "../styles/ComponentsStyles/CountryCardCarousel.css";
-
-export default function CountryCardCarousel({ images, title, subtitle }) {
-  if (!images || images.length === 0) return null;
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 8000);
-
-    return () => clearInterval(interval);
-  }, [images.length]);
-
-  return (
-    <div className="hero">
-      {images.map((img, index) => (
-        <div
-          key={index}
-          className={`carousel-image ${index === currentIndex ? "active" : ""}`}
-          style={{ backgroundImage: `url(${img})` }}
-        />
-      ))}
-      <div className="hero-content">
-        <h1>{title}</h1>
-        <p>{subtitle}</p>
-      </div>
-    </div>
-  );
-}*/
-
 import { useEffect, useState } from "react";
 import "../styles/componentsStyles/CountryCardCarousel.css";
 
