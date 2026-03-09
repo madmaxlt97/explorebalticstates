@@ -7,7 +7,7 @@ export const countries: Country[] = [
     flag: "/assets/images/flags/lithuania-flag.png",
     capital: "Vilnius",
     description:
-      "Lithuania is a country in the Baltic region of Europe. It is bordered by Latvia to the north, Belarus to the east and south, Poland to the south, and the Baltic Sea to the west.",
+      "In Lithuania, the echoes of ancient folklore meet the pulse of a high-tech future. It’s a land where the legend of the Iron Wolf still inspires the dreamers of today, and where the reverence for nature is just as strong as the drive for innovation. This is a country that doesn't just exist—it endures and inspires.",
     population: "2.8M",
     funFacts: [
       "Lithuania was the first country to declare independence from the Soviet Union in 1990.",
@@ -36,7 +36,7 @@ export const countries: Country[] = [
     flag: "/assets/images/flags/latvia-flag.png",
     capital: "Riga",
     description:
-      "Latvia is a country on the eastern shore of the Baltic Sea in Northern Europe. It is bordered by Estonia to the north, Lithuania to the south, Belarus to the southeast, and Russia to the east.",
+      "There is an effortless, northern elegance to Latvia, most visible in the swirling Art Nouveau carvings that adorn its capital. It is a country that feels like a living museum, where medieval history and cosmopolitan flair coexist peacefully under the watchful eye of a wild, untamed Baltic spirit.",
     population: "1.8M",
     funFacts: [
       "Latvia is known for its rich cultural heritage, including traditional folk music and dance.",
@@ -65,7 +65,7 @@ export const countries: Country[] = [
     flag: "/assets/images/flags/estonia-flag.png",
     capital: "Tallinn",
     description:
-      "Estonia is a country in Northern Europe. It is bordered by the Gulf of Finland to the north, the Baltic Sea to the west, Latvia to the south, and Russia to the east.",
+      "In Estonia, silence is a national treasure. It’s a land of misty bogs, ancient meteor craters, and thousands of islands where the connection to nature remains sacred. It is a nation that famously sang its way to freedom, proving that a small voice, when harmonized, can move mountains and change history.",
     population: "1.3M",
     funFacts: [
       "Estonia is known for its advanced digital society, with many e-services and a high level of internet connectivity.",

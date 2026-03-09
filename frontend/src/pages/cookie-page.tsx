@@ -8,7 +8,7 @@ export default function CookiePage() {
       <div className="cookie-page">
         <h1>Cookie Policy</h1>
         <p>
-          <em>Last updated: January 2025</em>
+          <em>Last updated: January 2026</em>
         </p>
 
         <h2>1. Introduction</h2>
