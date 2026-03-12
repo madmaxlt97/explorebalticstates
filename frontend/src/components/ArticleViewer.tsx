@@ -14,7 +14,7 @@ const articles = import.meta.glob("../content/city-topics/**/**/*.md", {
 export default function ArticleViewer() {
   const { countryName, cityId, articleId } = useParams();
   const [articleContent, setArticleContent] = useState("");
-  const [metadata, setMetadata] = useState<any>({});
+
   const navigate = useNavigate();
 
   useEffect(() => {
