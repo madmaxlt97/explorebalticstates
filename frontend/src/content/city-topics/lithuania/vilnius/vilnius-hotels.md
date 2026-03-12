@@ -18,7 +18,7 @@ _Below is a list of hotels in Vilnius in three different price levels from low-p
 
 ### 3. City Gate
 
-![City Gate Hotel](./assets/images/topics-images/lithuania/vilnius/hotel-imgs/city-gate-hotel.avif)
+![City Gate Hotel](/assets/images/topics-images/lithuania/vilnius/hotel-imgs/city-gate-hotel.avif)
 
 **Area:** Bazilijonų str. 3, Vilnius. **Average Price:** ~€45 per night. **Rating:** 4.5/5. **Key Highlight:** A cozy hotel in a 19th-century building. It is known for its friendly service, proximity to the main attractions of the Old Town, and very affordable rates that include breakfast.
 
